@@ -1,11 +1,11 @@
 import { BrowserRouter as Router } from "react-router-dom";
 
 // Import Components
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Navbar from "./component/Navbar.js";
+import Home from "./component/Home.js";
+import About from "./component/About.js";
+import Projects from "./component/Project.js";
+import Contact from "./component/Contact.js";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
 
         {/* Footer */}
         <footer className="bg-pink-200 py-4 text-center text-pink-700">
-          <p>© 2024 Aakriti Mishra. All rights reserved.</p>
+          <p>© 2024 Aakriti Panthi. All rights reserved.</p>
           <div className="mt-2 space-x-4">
             <a
               href="https://github.com/yourusername"
