@@ -1,5 +1,3 @@
-# Aakriti-Portfolio
-
 ### **Project: Personal Portfolio Website**
 
 ---
