@@ -27,7 +27,7 @@ function Home() {
 
       <header className="heading">
         <h1>Aakriti Panthi</h1>
-        <p>9316 Signal Station Dr, Manassas VA 20111</p>
+        <p> Manassas Virginia 20111</p>
         <p>Phone: +1(571) 229-7579</p>
         <p> panthi.aakriti.np@gmail.com</p>
         <p>
@@ -36,6 +36,11 @@ function Home() {
             linkedin.com/in/aakritipanthi
           </a>
         </p>
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4E03AQHhZOHVEha1jA/profile-displayphoto-shrink_400_400/B4EZON0.R9HEAg-/0/1733251294730?e=1740614400&v=beta&t=ia52IEVXrZ-z7GEgalR0KzANMYDjakrKdxUbcxxGQ5Q"
+          alt="Circular Image"
+          className="circle-img"
+        ></img>
       </header>
 
       {summary}
@@ -46,7 +51,7 @@ function Home() {
           <p>
             <em>Virginia, USA — Aug 2023 - Present</em>
           </p>
-          <ul>
+          <ul className="styled-list">
             <li>
               Designed and developed{" "}
               <strong>end-to-end web applications</strong> to streamline
@@ -108,7 +113,7 @@ function Home() {
           <p>
             <em>Kathmandu, Nepal - Mar 2019 - Feb 2023</em>
           </p>
-          <ul>
+          <ul className="styled-list">
             <li>
               Developed <strong>web-based applications</strong> to enhance
               government service delivery using PHP and Laravel frameworks.
@@ -202,69 +207,144 @@ function Home() {
         </div>
       </section>
 
-      <section id="skills">
+      <section id="skills" className="skills-container">
         <h2>Skills</h2>
-        <div className="card">
-          <ul>
-            <li>
-              <strong>Programming Languages:</strong> Java, Python, JavaScript,
-              Node.js, SQL, PHP, C, C++
-            </li>
-            <li>
-              <strong>IDE Tools:</strong> Eclipse, Netbeans, IntelliJ IDEA,
-              Spring Tool Suite (STS), Maven, Gradle
-            </li>
-            <li>
-              <strong>Web/App/DB Servers:</strong> WebLogic, Apache Tomcat,
-              JBoss
-            </li>
-            <li>
-              <strong>Web Services:</strong> SOAP, JAX-RS, JAX-WS, RESTful Web
-              Services, Microservices
-            </li>
-            <li>
-              <strong>Web Development:</strong> HTML, CSS, JavaScript, jQuery,
-              React JS, Ajax, Bootstrap, Angular, Angular JS
-            </li>
-            <li>
-              <strong>Cloud Technologies:</strong> AWS, Google Cloud Platform,
-              Microsoft Azure
-            </li>
-            <li>
-              <strong>NoSQL Databases:</strong> MongoDB, Apache Cassandra, Redis
-            </li>
-            <li>
-              <strong>Relational Databases:</strong> MySQL, MS-SQL Server,
-              Oracle, SQL Server, PostgreSQL
-            </li>
-            <li>
-              <strong>Tools:</strong> Git, Docker, Postman, Jenkins, Kubernetes,
-              Bamboo, Hudson, JIRA, Spring Boot Actuator
-            </li>
-            <li>
-              <strong>Build and Testing Tools:</strong> JUnit, TestNG, Mockito,
-              Apache JMeter, AssertJ, Jest, Mocha
-            </li>
-            <li>
-              <strong>Logging and Monitoring Tools:</strong> Log4j, Prometheus,
-              Grafana, Splunk
-            </li>
-            <li>
-              <strong>Web Technologies:</strong> Servlet and JSP, Spring
-              Frameworks (Spring MVC, Spring Boot), Hibernate ORM, JavaServer
-              Faces (JSF), Java Persistence API
-            </li>
-            <li>
-              <strong>Version Controls:</strong> GIT (Github, Gitlab,
-              BitBucket), SVN, CVS, JIRA
-            </li>
-            <li>
-              <strong>Methodologies and Practices:</strong> Agile Development,
-              Test Driven Development, Object-Oriented Programming, Continuous
-              Integration/Continuous Deployment (CI/CD) pipelines, Domain-Driven
-              Design (DDD), Event-Driven Architecture (EDA)
-            </li>
-          </ul>
+
+        <div className="skill-box">
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+              alt="Java Spring Boot"
+            />
+            <label>Java Spring Boot</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/officel/80/php-logo.png"
+              alt="PHP"
+            />
+            <label>PHP</label>
+          </div>
+
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/?size=100&id=21888&format=png&color=000000"
+              alt="REST"
+            />
+            <label>REST</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/?size=100&id=21888&format=png&color=000000"
+              alt="SOAP"
+            />
+            <label>SOAP</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/?size=100&id=DHbACKviPosX&format=png&color=000000"
+              alt="Microservices"
+            />
+            <label>Microservices</label>
+          </div>
+
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/html-5.png"
+              alt="HTML"
+            />
+
+            <label>JavaScript</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/react-native.png"
+              alt="React"
+            />
+            <label>React</label>
+          </div>
+
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/amazon-web-services.png"
+              alt="AWS"
+            />
+            <label>AWS</label>
+          </div>
+
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/?size=100&id=lsB0o0d7jxHQ&format=png&color=000000"
+              alt="JUnit"
+            />
+            <label>JUnit</label>
+          </div>
+
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/mongodb.png"
+              alt="MongoDB"
+            />
+            <label>MongoDB</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/sql.png"
+              alt="SQL"
+            />
+            <label>SQL</label>
+          </div>
+
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/git.png"
+              alt="Git"
+            />
+            <label>Git</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/docker.png"
+              alt="Docker"
+            />
+            <label>Docker</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/?size=100&id=QEQQKirln6Tf&format=png&color=000000"
+              alt="Postman"
+            />
+            <label>Postman</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/jenkins.png"
+              alt="Jenkins"
+            />
+            <label>Jenkins</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/color/48/000000/kubernetes.png"
+              alt="Kubernetes"
+            />
+            <label>Kubernetes</label>
+          </div>
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/jira.png"
+              alt="JIRA"
+            />
+            <label>JIRA</label>
+          </div>
+
+          <div className="skill-item">
+            <img
+              src="https://img.icons8.com/?size=100&id=40610&format=png&color=000000"
+              alt="Log4j"
+            />
+            <label>Log4j</label>
+          </div>
         </div>
       </section>
 
