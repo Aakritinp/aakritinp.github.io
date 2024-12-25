@@ -65,14 +65,6 @@ function Skills() {
 
         <div className="skill-item">
           <img
-            src="https://img.icons8.com/?size=100&id=lsB0o0d7jxHQ&format=png&color=000000"
-            alt="JUnit"
-          />
-          <label>JUnit</label>
-        </div>
-
-        <div className="skill-item">
-          <img
             src="https://img.icons8.com/color/48/000000/mongodb.png"
             alt="MongoDB"
           />
@@ -104,13 +96,7 @@ function Skills() {
           />
           <label>Postman</label>
         </div>
-        <div className="skill-item">
-          <img
-            src="https://img.icons8.com/color/48/000000/jenkins.png"
-            alt="Jenkins"
-          />
-          <label>Jenkins</label>
-        </div>
+
         <div className="skill-item">
           <img
             src="https://img.icons8.com/color/48/000000/kubernetes.png"
@@ -124,14 +110,6 @@ function Skills() {
             alt="JIRA"
           />
           <label>JIRA</label>
-        </div>
-
-        <div className="skill-item">
-          <img
-            src="https://img.icons8.com/?size=100&id=40610&format=png&color=000000"
-            alt="Log4j"
-          />
-          <label>Log4j</label>
         </div>
       </div>
     </section>

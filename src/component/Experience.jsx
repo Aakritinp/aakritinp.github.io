@@ -10,37 +10,29 @@ function Experience() {
         </p>
         <ul className="styled-list">
           <li>
-            Designed and developed <strong>end-to-end web applications</strong>{" "}
-            to streamline healthcare workflows, using{" "}
-            <strong>Java, Spring Boot, and Angular.</strong>
+            Implemented RESTful APIs to enable seamless integration between
+            modules and third-party applications.
           </li>
           <li>
-            Implemented <strong>RESTful APIs</strong> to enable seamless
-            integration between modules and third-party applications.
-          </li>
-          <li>
-            Optimized database queries and managed data operations using
-            <strong> MySQL</strong>, ensuring high performance and data
-            integrity.
+            Optimized database queries and managed data operations using MySQL,
+            ensuring high performance and data integrity.
           </li>
 
           <li>
-            Conducted unit testing and integration testing using{" "}
-            <strong>JUnit</strong>, maintaining high code quality and
-            reliability.
+            Conducted unit testing and integration testing using JUnit,
+            maintaining high code quality and reliability.
           </li>
           <li>
-            Worked with cross-functional teams in an{" "}
-            <strong>Agile/Scrum</strong> environment to deliver healthcare
-            solutions on time.
+            Worked with cross-functional teams in an Agile/Scrum environment to
+            deliver healthcare solutions on time.
           </li>
           <li>
-            Implemented robust <strong>security protocols</strong> to ensure
-            compliance with healthcare data regulations, including HIPAA.
+            Implemented robust security protocols to ensure compliance with
+            healthcare data regulations, including HIPAA.
           </li>
           <li>
-            Used <strong>Git</strong> for version control and code
-            collaboration, enabling efficient teamwork across multiple projects.
+            Used Git for version control and code collaboration, enabling
+            efficient teamwork across multiple projects.
           </li>
           <li>
             <strong>
@@ -57,30 +49,29 @@ function Experience() {
         </p>
         <ul className="styled-list">
           <li>
-            Developed <strong>web-based applications</strong> to enhance
-            government service delivery using PHP and Laravel frameworks.
+            Developed web-based applications to enhance government service
+            delivery using PHP and Laravel frameworks.
           </li>
           <li>
-            Managed and optimized <strong>PostgreSQL databases</strong>,
-            ensuring data consistency and reliability across systems.
+            Managed and optimized PostgreSQL databases, ensuring data
+            consistency and reliability across systems.
           </li>
           <li>
-            Designed and implemented responsive user interfaces with{" "}
-            <strong>Bootstrap</strong> and <strong>JavaScript</strong>,
-            enhancing usability for citizens.
+            Designed and implemented responsive user interfaces with Bootstrap
+            and JavaScript, enhancing usability for citizens.
           </li>
           <li>
-            Configured and maintained <strong>Nginx</strong> servers for
-            efficient and secure web application hosting.
+            Configured and maintained Nginx servers for efficient and secure web
+            application hosting.
           </li>
           <li>
-            Deployed <strong>Redis</strong> for caching, improving the
-            performance and scalability of government portals.
+            Deployed Redis for caching, improving the performance and
+            scalability of government portals.
           </li>
 
           <li>
-            Ensured adherence to <strong>e-Governance standards</strong> by
-            integrating accessibility and security features in applications.
+            Ensured adherence to e-Governance standards by integrating
+            accessibility and security features in applications.
           </li>
           <li>
             Provided training and support to government staff, enabling

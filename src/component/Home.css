@@ -20,6 +20,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 10;
+  margin: 0;
 }
 
 nav .brand {
@@ -35,7 +36,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 nav ul li a {
@@ -108,6 +109,21 @@ section h2 {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #0077b5;
 }
 
 /* Footer */
@@ -238,17 +254,19 @@ footer {
 }
 
 .content-section p {
-  margin: 5px 0;
+  margin: 10px 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.content-section i {
-  margin-right: 10px;
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
 }
 
 a {
   text-decoration: none;
-  color: #0077b5;
+  color: #ba371b;
 }

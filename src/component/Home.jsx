@@ -37,16 +37,35 @@ function Home() {
           <div className="content-section">
             <h1>Aakriti Panthi</h1>
             <p>
-              <i className="fas fa-map-marker-alt"></i> Manassas Virginia 20111
+              <img
+                src="https://img.icons8.com/ios-filled/50/ba371b/marker.png"
+                alt="Location Icon"
+                className="icon"
+              />{" "}
+              Manassas Virginia 20111
             </p>
             <p>
-              <i className="fas fa-phone"></i> +1(571) 229-7579
+              <img
+                src="https://img.icons8.com/ios-filled/50/ba371b/phone.png"
+                alt="Phone Icon"
+                className="icon"
+              />{" "}
+              +1(571) 229-7579
             </p>
             <p>
-              <i className="fas fa-envelope"></i> panthi.aakriti.np@gmail.com
+              <img
+                src="https://img.icons8.com/ios-filled/50/ba371b/email.png"
+                alt="Email Icon"
+                className="icon"
+              />{" "}
+              panthi.aakriti.np@gmail.com
             </p>
             <p>
-              <i className="fab fa-linkedin"></i>
+              <img
+                src="https://img.icons8.com/ios-filled/50/ba371b/linkedin.png"
+                alt="LinkedIn Icon"
+                className="icon"
+              />
               <a href="https://linkedin.com/in/aakritipanthi" target="_blank">
                 linkedin.com/in/aakritipanthi
               </a>
