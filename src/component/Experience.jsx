@@ -26,10 +26,7 @@ function Experience() {
             Worked with cross-functional teams in an Agile/Scrum environment to
             deliver healthcare solutions on time.
           </li>
-          <li>
-            Implemented robust security protocols to ensure compliance with
-            healthcare data regulations, including HIPAA.
-          </li>
+
           <li>
             Used Git for version control and code collaboration, enabling
             efficient teamwork across multiple projects.
@@ -60,10 +57,7 @@ function Experience() {
             Designed and implemented responsive user interfaces with Bootstrap
             and JavaScript, enhancing usability for citizens.
           </li>
-          <li>
-            Configured and maintained Nginx servers for efficient and secure web
-            application hosting.
-          </li>
+
           <li>
             Deployed Redis for caching, improving the performance and
             scalability of government portals.
@@ -73,10 +67,7 @@ function Experience() {
             Ensured adherence to e-Governance standards by integrating
             accessibility and security features in applications.
           </li>
-          <li>
-            Provided training and support to government staff, enabling
-            efficient use of IT systems and tools.
-          </li>
+
           <li>
             <strong>
               Technology Used: PHP, Laravel, PostgreSQL, JavaScript, Bootstrap,

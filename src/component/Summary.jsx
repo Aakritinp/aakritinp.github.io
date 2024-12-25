@@ -27,18 +27,6 @@ function Summary() {
           <strong>Maven/Gradle </strong>for build automation, and{" "}
           <strong>Junit</strong> and <strong>Mockito</strong> for unit testing.
         </p>
-        <p>
-          Well-versed in <strong>Agile methodologies</strong> and collaborating
-          with cross-functional teams to deliver high-quality, on-time
-          solutions. Strong understanding of{" "}
-          <strong>Object-Oriented Programming (OOP)</strong>,{" "}
-          <strong>Data Structures</strong>, and <strong>Design Patterns</strong>
-          , ensuring efficient and maintainable code. Passionate about
-          leveraging <strong>Cloud Platforms</strong> like <strong>AWS</strong>{" "}
-          and <strong>Azure</strong> to design and deploy highly available and
-          secure applications. Seeking to bring technical expertise and
-          innovative solutions to a forward-thinking organization.
-        </p>
       </div>
     </section>
   );
