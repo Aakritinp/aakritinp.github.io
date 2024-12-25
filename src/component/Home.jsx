@@ -4,12 +4,14 @@ import Experience from "./Experience";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Education from "./Education";
+import Contact from "./Contact";
 function Home() {
   const summary = Summary();
   const experience = Experience();
   const skills = Skills();
   const projects = Projects();
   const education = Education();
+  const contact = Contact();
   return (
     <div>
       <nav>
@@ -86,6 +88,7 @@ function Home() {
       {education}
       {skills}
       {projects}
+      {contact}
 
       <footer id="contact">
         <p>Contact: panthi.aakriti.np@gmail.com | LinkedIn: /aakritipanthi</p>
