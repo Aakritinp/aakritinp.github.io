@@ -34,7 +34,7 @@ function Experience() {
           <li>
             <strong>
               Technology Used: Java, Spring Boot, Hibernate, Angular, RESTful
-              APIs, MySQL, Docker, Kubernetes, Jenkins, AWS, JUnit, Git
+              APIs, MySQL, Docker, Kubernetes, Jenkins, AWS, JUnit, Git.
             </strong>
           </li>
         </ul>
